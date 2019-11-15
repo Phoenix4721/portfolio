@@ -1,0 +1,88 @@
+body {
+    background-image: url("marblebackgroond.jpg");
+    background-repeat: repeat;
+    background-attachment: fixed;
+ }
+
+ .width{
+    overflow: hidden;
+    background-color: #ffffff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    border-bottom: 2px solid #cccccc;
+ }
+ .box {
+   box-sizing: border-box;
+   width: 60%;
+   height: 100%;
+   background-color: #ffffff;
+   margin: 40px;
+   border-style: solid;
+
+ }
+ img {
+  float: left;  
+
+ }
+ .nav {
+    background-color: #ffffff;
+    width: 100%;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    
+ }
+ .nav a {
+    float: right;
+    display: block;
+    color: black;
+    text-align: center;
+    margin: 0px 0px 0px 0px;
+    padding: 20px 20px 20px 20px;
+    text-decoration: none;
+
+ }
+ .nav a:hover{
+    background-color: #777;
+    color: white;
+ }
+ .nav a:focus{
+    background-color: #555;
+    color: white;
+ }
+ .nav a:active{
+    background-color: #333;
+    color: white;}
+ .nav h1 {
+    float: left;
+    color: #ffffff;
+    font-size: 1.3em;
+    background-color: #4aaaa5;
+    margin: 0px 0px 0px 0px;
+    padding: 20px 20px 20px 20px;
+ }
+ article {
+    padding-top: 70px;
+    padding-bottom: 70px;
+    text-align: center;
+ }
+ div h1 {
+    text-align: left;
+    font-size: 2em;
+    color: #4aaaa5;
+ }
+ /*does the footer fall in the body in the html?*/
+ footer {
+    background-color: #666666;
+    border-top: 10px solid #4aaaa5;
+    text-align: center;
+    padding: 30px 30px 5px 30px;
+    font-weight: 700;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    color: white;
+ }
